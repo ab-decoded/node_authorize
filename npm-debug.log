@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'passport-facebook' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'passport-facebook', null ]
+7 verbose cache add name=undefined spec="passport-facebook" args=["passport-facebook",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'passport-facebook',
+8 verbose parsed url   path: 'passport-facebook',
+8 verbose parsed url   href: 'passport-facebook' }
+9 silly lockFile 1f112557-passport-facebook passport-facebook
+10 verbose lock passport-facebook /home/abhinav/.npm/1f112557-passport-facebook.lock
+11 silly lockFile 1f112557-passport-facebook passport-facebook
+12 silly lockFile 1f112557-passport-facebook passport-facebook
+13 verbose addNamed [ 'passport-facebook', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile d48e7760-passport-facebook passport-facebook@
+16 verbose lock passport-facebook@ /home/abhinav/.npm/d48e7760-passport-facebook.lock
+17 silly addNameRange { name: 'passport-facebook', range: '*', hasData: false }
+18 verbose request where is /passport-facebook
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id abfc1a6c441f6f23
+21 verbose url raw /passport-facebook
+22 verbose url resolving [ 'https://registry.npmjs.org/', './passport-facebook' ]
+23 verbose url resolved https://registry.npmjs.org/passport-facebook
+24 verbose request where is https://registry.npmjs.org/passport-facebook
+25 info trying registry request attempt 1 at 14:10:25
+26 verbose etag "D05OYO7G74MN7923KTOOLLCE0"
+27 http GET https://registry.npmjs.org/passport-facebook
+28 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+29 info trying registry request attempt 2 at 14:10:35
+30 verbose etag "D05OYO7G74MN7923KTOOLLCE0"
+31 http GET https://registry.npmjs.org/passport-facebook
+32 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+33 info trying registry request attempt 3 at 14:11:35
+34 verbose etag "D05OYO7G74MN7923KTOOLLCE0"
+35 http GET https://registry.npmjs.org/passport-facebook
+36 http 304 https://registry.npmjs.org/passport-facebook
+37 silly registry.get cb [ 304,
+37 silly registry.get   { date: 'Sat, 18 Apr 2015 08:41:36 GMT',
+37 silly registry.get     server: 'Apache',
+37 silly registry.get     via: '1.1 varnish',
+37 silly registry.get     'last-modified': 'Sat, 18 Apr 2015 08:41:37 GMT',
+37 silly registry.get     'cache-control': 'max-age=60',
+37 silly registry.get     etag: '"D05OYO7G74MN7923KTOOLLCE0"',
+37 silly registry.get     age: '0',
+37 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+37 silly registry.get     'x-cache': 'HIT',
+37 silly registry.get     'x-cache-hits': '1',
+37 silly registry.get     'x-timer': 'S1429346496.747456,VS0,VE415',
+37 silly registry.get     vary: 'Accept',
+37 silly registry.get     'content-length': '0',
+37 silly registry.get     'keep-alive': 'timeout=10, max=50',
+37 silly registry.get     connection: 'Keep-Alive' } ]
+38 verbose etag https://registry.npmjs.org/passport-facebook from cache
+39 silly addNameRange number 2 { name: 'passport-facebook', range: '*', hasData: true }
+40 silly addNameRange versions [ 'passport-facebook',
+40 silly addNameRange   [ '0.1.0',
+40 silly addNameRange     '0.1.1',
+40 silly addNameRange     '0.1.2',
+40 silly addNameRange     '0.1.3',
+40 silly addNameRange     '0.1.4',
+40 silly addNameRange     '0.1.5',
+40 silly addNameRange     '0.1.6',
+40 silly addNameRange     '1.0.0',
+40 silly addNameRange     '1.0.1',
+40 silly addNameRange     '1.0.2',
+40 silly addNameRange     '1.0.3',
+40 silly addNameRange     '2.0.0' ] ]
+41 verbose addNamed [ 'passport-facebook', '2.0.0' ]
+42 verbose addNamed [ '2.0.0', '2.0.0' ]
+43 silly lockFile 747c92ab-passport-facebook-2-0-0 passport-facebook@2.0.0
+44 verbose lock passport-facebook@2.0.0 /home/abhinav/.npm/747c92ab-passport-facebook-2-0-0.lock
+45 silly lockFile 88d855c7-book-passport-facebook-2-0-0-tgz https://registry.npmjs.org/passport-facebook/-/passport-facebook-2.0.0.tgz
+46 verbose lock https://registry.npmjs.org/passport-facebook/-/passport-facebook-2.0.0.tgz /home/abhinav/.npm/88d855c7-book-passport-facebook-2-0-0-tgz.lock
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-facebook/-/passport-facebook-2.0.0.tgz',
+47 verbose addRemoteTarball   '35a0cd0b5a791d25810a78014f0cc0a9e72e1957' ]
+48 info retry fetch attempt 1 at 14:11:37
+49 verbose fetch to= /tmp/npm-32228-WpmgEUng/registry.npmjs.org/passport-facebook/-/passport-facebook-2.0.0.tgz
+50 http GET https://registry.npmjs.org/passport-facebook/-/passport-facebook-2.0.0.tgz
+51 http 200 https://registry.npmjs.org/passport-facebook/-/passport-facebook-2.0.0.tgz
+52 silly lockFile 88d855c7-book-passport-facebook-2-0-0-tgz https://registry.npmjs.org/passport-facebook/-/passport-facebook-2.0.0.tgz
+53 silly lockFile 88d855c7-book-passport-facebook-2-0-0-tgz https://registry.npmjs.org/passport-facebook/-/passport-facebook-2.0.0.tgz
+54 silly lockFile 747c92ab-passport-facebook-2-0-0 passport-facebook@2.0.0
+55 silly lockFile 747c92ab-passport-facebook-2-0-0 passport-facebook@2.0.0
+56 silly lockFile d48e7760-passport-facebook passport-facebook@
+57 silly lockFile d48e7760-passport-facebook passport-facebook@
+58 error Error: EACCES, mkdir '/home/abhinav/.npm/passport-facebook/2.0.0'
+58 error  { [Error: EACCES, mkdir '/home/abhinav/.npm/passport-facebook/2.0.0']
+58 error   errno: 3,
+58 error   code: 'EACCES',
+58 error   path: '/home/abhinav/.npm/passport-facebook/2.0.0',
+58 error   parent: 'appX' }
+59 error Please try running this command again as root/Administrator.
+60 error System Linux 3.2.0-74-generic
+61 error command "/usr/bin/node" "/usr/bin/npm" "install" "passport-facebook"
+62 error cwd /home/abhinav/Desktop/ProjectX/appX_v2
+63 error node -v v0.10.33
+64 error npm -v 1.4.28
+65 error path /home/abhinav/.npm/passport-facebook/2.0.0
+66 error code EACCES
+67 error errno 3
+68 error stack Error: EACCES, mkdir '/home/abhinav/.npm/passport-facebook/2.0.0'
+69 verbose exit [ 3, true ]

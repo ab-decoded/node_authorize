@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN TO CONTINUE</title>
+	<link rel="stylesheet" href="./stylesheets/style.css">
+	<link rel="stylesheet" href="./stylesheets/social.css">
+	<link rel="stylesheet" href="./libs/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="./stylesheets/material.css">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="centered">
+		<h1 id="login-header">LOGIN</h1> 
+
+		<!-- show any messages that come back with authentication -->
+	    <% if (message.length > 0) { %>
+	        <div class="alert alert-danger"><%= message %></div>
+	    <% } %>
+		
+		<!-- LOGIN FORM -->
+	    <form action="/login" method="post">
+	        <div class="form-group">
+	            <input type="email" class="form-control floating-label" name="email" placeholder="email">
+	            <!-- <input type="text" class="form-control" name="email"> -->
+	        </div>
+	        <div class="form-group">
+	            <input type="password" class="form-control flaoting-label" name="password" placeholder="password">
+	        </div>
+
+	        <button type="submit" class="btn btn-warning btn-lg">Login</button>
+	    </form>
+
+		<div id="social-links">
+	    <ul>
+	        <li class="social-center"><span class="ifacebook"><img src="images/facebook.png"></span><a href="/auth/facebook" class="afacebook">sign in with facebook</a></li>
+	        <li class="social-center"><span class="itwitter"><img src="images/twitter.png"></span><a href="#" class="atwitter">sign in with twitter</a></li>
+	        <li class="social-center"><span class="igoogleplus"><img src="images/googleplus.png"></span><a href="#" class="agoogleplus">sign in with google+</a></li>
+	    </ul>
+		</div>
+
+		<p>Need an account? <a href="/signup">Signup</a></p>
+	</div>
+
+</div>
+<script type="text/javascript" src="libs/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="javascripts/material.js"></script>
+</body>
+</html>

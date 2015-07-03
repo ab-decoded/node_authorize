@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <script type="text/javascript" src="./libs/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="./libs/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./libs/angular/angular.js"></script>
+    <script type="text/javascript" src="./javascripts/handlebars-v3.0.1.js"></script>
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/profile_style.css">
+</head>
+<body>
+
+<% include partials/header.ejs %>  
+
+<div class="container container-ab">
+
+    <div class="page-header">
+        <h1><span class="fa fa-anchor"></span> <%= user.local.name||user.facebook.name%></h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-6">
+            <div class="well">
+                <h3><span class="fa fa-user"></span> Local</h3>
+
+                    <p>
+                        <strong>id</strong>: <%= user._id %><br>
+                        <strong>email</strong>: <%= user.facebook.email %><br>
+                        <strong>name</strong>: <%= user.facebook.name %>
+                    </p>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

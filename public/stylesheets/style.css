@@ -1,0 +1,73 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+*/
+*{
+	margin:0;
+	padding:0;
+}
+a {
+  color: #00B7FF;
+}
+.wrapper{
+	background: url('/images/bg.jpg') no-repeat   center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100vh;
+}
+.navbar{
+	color:#fff !important;
+	background:#252525 !important;
+	position:fixed;
+	width:100%;
+	top:0;
+}
+.navbar-ab{
+	border:0 !important;
+	border-radius: 0 !important;
+}
+.navbar-brand{
+	color:#fff !important;
+	width:150px;
+	text-align: center;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background:#FFB500 !important;
+	color:#fff;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff !important;
+}
+.header{
+	text-align: center;
+	margin-top:220px;
+	font-size: 50px;
+}
+.btn-ab{
+	margin-top: 40px;
+	border-radius: 0;
+	border:3px solid #FFB500;
+	color:#FFB500;
+	width:200px;
+	height:50px;
+	/*color:#3C3C3C;*/
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 21px;
+	background: transparent;
+}
+.btn-ab:hover{
+	color:#fff;
+	background:#FFB500;
+	border:3px solid #FFB500;
+}
+.header .small{
+	font-size:13px;
+}
+.dropdown-toggle{
+	background:#FFB500 !important;
+}
